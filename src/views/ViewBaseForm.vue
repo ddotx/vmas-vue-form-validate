@@ -4,7 +4,8 @@
 
 
 
-        <BaseCheckbox label="Ca" v-model="state.stateChecked" />
+        <BaseCheckbox label="Check1" v-model="state.stateCheckedOne" />
+        <BaseCheckbox label="Check2" v-model="state.stateCheckedTwo" />
     </div>
 </template>
   

@@ -1,13 +1,15 @@
 <template>
-  <ViewBaseForm />
-  <LoginForm />
-  <ComponentsForm />
+  <div>
+    <router-link to="/">Home</router-link>
+    <router-link to="/page">AnotherPage</router-link>
+
+  </div>
+  <router-view />
 </template>
 
 <script setup>
-import LoginForm from '@/views/LoginForm.vue'
-import ComponentsForm from '@/views/ComponentsForm.vue'
-import ViewBaseForm from './views/ViewBaseForm.vue';
+
+
 
 </script>
 
